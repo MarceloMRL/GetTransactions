@@ -13,7 +13,7 @@ func main() {
 	_, err := fmt.Scan(&inputString, &inputInteger)
 	if err != nil {
 		fmt.Println("Error with reading Input from Terminal.")
-		fmt.Println("Input sample: <0x7600977Eb9eFFA627D6BD0DA2E5be35E11566341 30>")
+		fmt.Println("Input sample: <0x82125AFe01819Dff1535D0D6276d57045291B6c0 30>")
 	}
 
 	result, err := GetTransactions(inputString, inputInteger)
@@ -26,5 +26,5 @@ func main() {
 	fmt.Printf("%.2fs elapsed \n", time.Since(start).Seconds())
 }
 
-// Sample Input: <0x7600977Eb9eFFA627D6BD0DA2E5be35E11566341,30>
+// Sample Input: <0x82125AFe01819Dff1535D0D6276d57045291B6c0,60>
 // User must set the key for the EtherScan API in GetTransactions()
