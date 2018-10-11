@@ -14,4 +14,4 @@ $ go run
 
 Enter the smart contract address as a String and the number of days to pull the transactions from in the following format
 
-Examle Input: <"0x82125AFe01819Dff1535D0D6276d57045291B6c0" 60>
+MRL Smart Contract  Input: <"0x82125AFe01819Dff1535D0D6276d57045291B6c0" 60>
